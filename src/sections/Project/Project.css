@@ -86,6 +86,7 @@
 
     .project-section .subtext{
         font-size: 13px;
+        text-align: justify;
     }
 
     .project-cards{
