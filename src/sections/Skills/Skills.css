@@ -17,11 +17,12 @@
 
 .skill-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-template-columns: repeat(6, 1fr);
   gap: 24px;
-
+  justify-items: center; 
+  align-items: center;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -29,12 +30,13 @@
 @media (max-width: 768px) {
   .skill-section {
     padding-top: 100px;
+    padding: 0px 50px;
     padding-bottom: 40px;
   }
 
   .skill-cards {
-    gap: 18px;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
   }
 }
 
@@ -45,8 +47,9 @@
   }
 
   .skill-cards {
-    gap: 15px;
+    padding: 0px 30px;
     grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
   }
 
   .skill-heading {
