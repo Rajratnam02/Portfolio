@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.css";
+import "./Header.css";
 import { TypeAnimation } from "react-type-animation";
 const Header = () => {
   return (
