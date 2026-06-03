@@ -28,7 +28,7 @@
   font-weight: 700;
 
   color: var(--text-color);
-
+  cursor: pointer;
   font-family: var(--primary-font);
 }
 
