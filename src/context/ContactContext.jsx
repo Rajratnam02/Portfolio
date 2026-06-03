@@ -6,7 +6,7 @@ import { SiLeetcode } from "react-icons/si";
 export const contactContext = [
   {
     id: 3,
-    link: "rajratnam2003@gmail.com",
+    link: "mailto:rajratnam2003@gmail.com",
     icon: <MdEmail />
   },
   {

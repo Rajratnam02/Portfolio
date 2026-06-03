@@ -3,22 +3,53 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0px 20px;
-  padding-top: 120px;
-  padding-bottom: 50px;
+
+  padding: 120px 20px 50px;
+  width: 100%;
 }
 
 .skill-heading {
-  font-size: 2.5rem;
+  font-size: clamp(2rem, 5vw, 3rem);
   margin-bottom: 20px;
   font-weight: bold;
+  text-align: center;
 }
 
 .skill-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 24px;
+
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .skill-section {
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+
+  .skill-cards {
+    gap: 18px;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .skill-section {
+    padding: 80px 15px 30px;
+  }
+
+  .skill-cards {
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skill-heading {
+    margin-bottom: 15px;
+  }
 }
