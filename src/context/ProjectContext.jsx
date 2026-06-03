@@ -6,7 +6,7 @@ export const projects = [
       "A real-time collaborative web IDE featuring simultaneous multi-user editing, live chat, shared workspaces, remote cursors, multi-language support, and customizable editor themes.",
     DemoLink: "https://nexusidedev.vercel.app/",
     Github: "https://github.com/Rajratnam02/NexusIDE-Monorepo",
-    Image: "../../src/assets/Screenshot 2026-06-03 031217.png",
+    Image: "/Screenshot 2026-06-03 031217.png",
     TechStack: [
       "React",
       "Node.js",
@@ -28,7 +28,7 @@ export const projects = [
       "A peer-to-peer vehicle sharing platform with JWT authentication, OTP email verification, booking workflows, ownership-based authorization, and secure REST APIs.",
     Github: "https://github.com/Rajratnam02/WheelSync-Client",
     DemoLink: "https://wheelsync-rajratnam.vercel.app",
-    Image: "/src/assets/Screenshot 2026-06-03 031759.png",
+    Image: "/Screenshot 2026-06-03 031759.png",
     TechStack: [
       "React",
       "Node.js",
@@ -49,7 +49,7 @@ export const projects = [
       "A culinary discovery platform featuring recipe search, category filtering, and a curated collection of 200+ Indian recipes with responsive mobile-first design.",
     DemoLink: "https://dish-dash-recipe.vercel.app",
     Github: "https://github.com/Rajratnam02/DishDash",
-    Image: "/src/assets/Screenshot 2026-06-03 031740.png",
+    Image: "/Screenshot 2026-06-03 031740.png",
     TechStack: [
       "React",
       "Tailwind CSS",

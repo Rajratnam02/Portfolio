@@ -40,7 +40,7 @@ const Header = () => {
       
       <div className="right">
         <div className="img-container">
-            <img src="../../../src/assets/MainImage.jpeg" alt="Main Image" />
+            <img src="/MainImage.jpeg" alt="Main Image" />
         </div>
       </div>
 
