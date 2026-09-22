@@ -17,11 +17,7 @@ const Skill = () => {
 
       <div className="mt-15 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8 w-full max-w-5xl">
         {SkillContext.map((skill) => (
-          <SkillCard
-            key={skill.name}
-            name={skill.name}
-            icon={skill.icon}
-          />
+          <SkillCard key={skill.name} name={skill.name} icon={skill.icon} />
         ))}
       </div>
     </div>
